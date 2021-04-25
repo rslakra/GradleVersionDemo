@@ -1,4 +1,5 @@
 rootProject.name = 'GradleBuildDemo'
+
 include 'CoreService', 'ExtService', 'TestService'
 
 /**
@@ -20,5 +21,4 @@ def setGradleBuildFile(ProjectDescriptor projectDescriptor) {
 rootProject.children.each {
     setGradleBuildFile(it)
 }
-include 'CommonService'
 

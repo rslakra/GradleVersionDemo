@@ -1,4 +1,4 @@
-rootProject.name = 'GradleBuildDemo'
+rootProject.name = 'GradleVersionDemo'
 
 include 'CoreService', 'ExtService', 'TestService'
 
